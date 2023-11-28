@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&family=Josefin+Sans:wght@300;400;500;600;700&family=Jost:wght@600;700;800&family=Mukta:wght@400;500;600;700;800&family=Mulish:wght@300;400;500;600;700;800;900&family=Open+Sans:ital,wght@0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Oswald:wght@300;400;500;600;700&family=Poppins:wght@200;300;400;500;600;700;800&family=REM:wght@300;500;800&family=Raleway:wght@300;500;600;700;800&display=swap");
+* {
+    font-family: "Mulish", sans-serif;
+}
+.footer{
+    width: 100%;
+    background-color: 
+    #121c1d;
+    padding-top: 50px;
+    
+}
+.footer .f-head{
+    width: 70%;
+    margin: auto;
+    border-bottom: 1px solid #6c757d;;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(253px, auto));
+}
+.f-email{
+    width: 100%;
+    position: relative;
+}
+.f-email span{
+    position: absolute;
+    right: 0px;
+    font-size: 15px;
+    color: #ffffff;
+    background: #13a2b7;
+    font-weight: 600;
+    border: none;
+    border-radius: 0 50px 50px 0;
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 18px 30px 18px;
+    -webkit-border-radius: 0 50px 50px 0;
+}
+.f-email form{
+    width: 100%;
+}
+.f-head .logo h1{
+    color: #ffff;
+}
+.f-email form input{
+    width: 100%;
+    height: 50px;
+    font-size: 14px;
+    color: #ffffff;
+    background: transparent;
+    border: 1px solid #13a2b7;
+    padding-left: 20px;
+    border-radius: 50px;
+
+}
+.f-email form ::placeholder{
+    color: #ffffff;
+}
+.f-head .f-icon{
+    text-align: right;
+}
+.f-icon i{
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    background: rgba(255, 255, 255, 0.1);
+    font-size: 18px;
+    color: #ffffff;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    margin-right: 6px;
+
+}
+.footer .f-list{
+    
+    width: 70%;
+    margin: auto;
+    
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(253px, auto));
+}
+.f-list .list-1 h4{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 25px;
+
+}
+.f-list .list-1 li{
+    
+    font-size: 16px;
+    color: #c4c4c4;
+    font-weight: 300;
+    list-style: none;
+    line-height: 30px;
+
+
+}
+.f-list .list-1 .list-3 li{
+    line-height: 55px;
+}
+.f-list .list-1 .list-3 i{
+    font-size: 18px;
+    color: #13a2b7;
+    margin-right: 15px;
+
+}

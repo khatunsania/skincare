@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&family=Josefin+Sans:wght@300;400;500;600;700&family=Jost:wght@600;700;800&family=Mukta:wght@400;500;600;700;800&family=Mulish:wght@300;400;500;600;700;800;900&family=Open+Sans:ital,wght@0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Oswald:wght@300;400;500;600;700&family=Poppins:wght@200;300;400;500;600;700;800&family=REM:wght@300;500;800&family=Raleway:wght@300;500;600;700;800&display=swap");
+* {
+    font-family: "Mulish", sans-serif;
+}
+.dc-sec{
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 70px;
+}
+.dc-sec p:first-child{
+    text-align: center;
+    font-size: 15px;
+    color: #888888;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+}
+.dc-sec p h1:first-child{
+    text-align: center;
+    color: #111111;
+    font-weight: 1000;
+    margin-top: 8px;
+}
+.doc{
+    width: 60%;
+    margin: auto;
+    
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+
+
+}
+.dc-img img{
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.dc-img p{
+    padding-left: 18%;
+    
+    font-size: 15px;
+    color: #13a2b7;
+    display: block;
+    margin-bottom: 12px;
+    
+}
+.dc-img p h3{
+    
+    font-size: 20px;
+    color: #111111;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.dc-img i{
+    font-size: 15px;
+    color: #666666;
+    display: inline-block;
+    margin-right: 20px
+}
+.dc-img .icon{
+    padding-left: 17%;
+}
