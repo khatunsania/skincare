@@ -31,7 +31,7 @@
 
 
 }
-.dc-img img{
+ .doc .dc-img img{
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -62,4 +62,17 @@
 }
 .dc-img .icon{
     padding-left: 17%;
+}
+@media(max-width:693px){
+    .doc .dc-img img {
+        width: 100%
+}
+.dc-img p{
+    text-align: center;
+    padding-left: 0;
+}
+.dc-img .icon{
+    text-align: center;
+    padding-left: 0;
+}
 }
