@@ -65,3 +65,13 @@
  .logo h1{
     font-weight: 1000;
  }
+ @media(max-width:600px){
+   .img-text{
+      width: 100%;
+   }
+ }
+ @media(max-width:400px){
+   .img-text h2{
+      font-size: 35px;
+   }
+ }

@@ -5,3 +5,8 @@
 .pic-sec{
     width: 100%;
 }
+@media(max-width:600px){
+    .g-img img{
+        width: 100%;
+    }
+}
