@@ -71,3 +71,19 @@
         width: auto;
     }
 }
+@media(max-width:570px){
+    .s-cont{
+        
+    width: 90%;
+    margin: auto;
+    
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100%, auto));
+    }
+}
+
+@media(max-width:950px){
+    .c-btn {
+        margin-left: 0;
+    }
+}
