@@ -1,119 +1,114 @@
 @import url("https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&family=Josefin+Sans:wght@300;400;500;600;700&family=Jost:wght@600;700;800&family=Mukta:wght@400;500;600;700;800&family=Mulish:wght@300;400;500;600;700;800;900&family=Open+Sans:ital,wght@0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Oswald:wght@300;400;500;600;700&family=Poppins:wght@200;300;400;500;600;700;800&family=REM:wght@300;500;800&family=Raleway:wght@300;500;600;700;800&display=swap");
 * {
-    font-family: "Mulish", sans-serif;
+	font-family: "Mulish", sans-serif;
 }
 .book {
-    width: 100%;
+	width: 100%;
 }
-.book-cont{
-    
-    margin: auto;
-    position: relative;
-    display: flex;
-    max-width: 1300px;
+.book-cont {
+	margin: auto;
+	position: relative;
+	display: flex;
+	max-width: 1300px;
 }
 label {
-    display: flex;
+	display: flex;
 }
- .f-text form {
-    width: 80%;
-    padding: 50px;
-    -webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
-    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
-    margin-top: -70px;
-    background: #ffffff;
+.f-text form {
+	width: 80%;
+	padding: 50px;
+	-webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+	margin-top: -70px;
+	background: #ffffff;
 }
 input {
-    /* width: 18%;
+	/* width: 18%;
     border-radius: 5px;
     border: 1px solid #888888; */
-    font-size: 15px;
-    color: #666666;
-    width: 100%;
-    height: 48px;
-    padding-left: 20px;
-    border: 1px solid #f2f2f2;
-    border-radius: 5px;
-    margin-bottom: 20px;
+	font-size: 15px;
+	color: #666666;
+	width: 100%;
+	height: 48px;
+	padding-left: 20px;
+	border: 1px solid #f2f2f2;
+	border-radius: 5px;
+	margin-bottom: 20px;
 }
 .f-text {
 }
-form button{
-    font-size: 15px;
-    color: #ffffff;
-    background: #13a2b7;
-    font-weight: 600;
-    border: none;
-    border-radius: 5px;
-    display: inline-block;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    padding: 14px 24px 12px;
-
+form button {
+	font-size: 15px;
+	color: #ffffff;
+	background: #13a2b7;
+	font-weight: 600;
+	border: none;
+	border-radius: 5px;
+	display: inline-block;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	padding: 14px 24px 12px;
 }
 .b-text p {
-    font-size: 15px;
-    color: #888888;
-    font-weight: 500;
-    letter-spacing: 2px;
-    text-transform: uppercase;
+	font-size: 15px;
+	color: #888888;
+	font-weight: 500;
+	letter-spacing: 2px;
+	text-transform: uppercase;
 }
 .b-text span {
-    color: #111111;
-    font-weight: 700;
-    margin-top: 8px;
+	color: #111111;
+	font-weight: 700;
+	margin-top: 8px;
 }
 .f-dc {
-    width: 90%;
-    margin: auto;
-    display: flex;
+	width: 90%;
+	margin: auto;
+	display: flex;
 }
 .dc-text {
-    width: 50%;
-    margin-left: 10%;
+	width: 50%;
+	margin-left: 10%;
 }
-.dc-img img {
+ .book .dc-img img {
+	width: 100%;
 }
-.dc-text .head{
-    ont-size: 15px;
-    color: #888888;
-    font-weight: 500;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-
+.dc-text .head {
+	ont-size: 15px;
+	color: #888888;
+	font-weight: 500;
+	letter-spacing: 2px;
+	text-transform: uppercase;
 }
-.dc-text h1{
-    color: #111111;
-    font-weight: 900;
-    margin-top: 8px;
-    line-height: 47px;
-    width: 80%;
-
+.dc-text h1 {
+	color: #111111;
+	font-weight: 900;
+	margin-top: 8px;
+	line-height: 47px;
+	width: 80%;
 }
 .dc-text span {
-    color: #13a2b7;
+	color: #13a2b7;
 }
-.dc-text p{
-    color: #444444;
-    margin-bottom: 0;
-    width: 90%;
+.dc-text p {
+	color: #444444;
+	margin-bottom: 0;
+	width: 90%;
 }
-.dc-img{
-    margin-top: 70px;
-  
-    
+.dc-img {
+	margin-top: 70px;
 }
-@media(max-width:980px){
-    .book-cont{
-      display: block;
-      /* margin-left:10% ; */
-    }
-    .dc-text{
-        width: 100%;
-    }
-    .f-dc{
-        display: block;
-    }
-    .dc-img img{
-    }
-  }
+@media (max-width: 980px) {
+	.book-cont {
+		display: block;
+		/* margin-left:10% ; */
+	}
+	.dc-text {
+		width: 100%;
+	}
+	.f-dc {
+		display: block;
+	}
+	.dc-img img {
+	}
+}

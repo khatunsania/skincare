@@ -26,11 +26,13 @@
 	margin: auto;
 
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+	grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+	gap: 1rem;
+}
+.doc .dc-img {
+	width: 80%;
 }
 .doc .dc-img img {
-	height: 270px;
-	width: 270px;
 	border-radius: 50%;
 	border: 10px solid #ffffff;
 	-webkit-box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
@@ -77,5 +79,10 @@
 	.dc-img .icon {
 		text-align: center;
 		padding-left: 0;
+	}
+}
+@media (max-width: 350px) {
+	.dc-sec p h1:first-child {
+		font-size: 25px;
 	}
 }
