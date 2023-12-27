@@ -1,0 +1,77 @@
+.happy {
+	width: 100%;
+	background-color: #f2f7f8;
+	padding-bottom: 30px;
+	padding-top: 50px;
+}
+.happy .h-text p {
+	text-align: center;
+}
+.happy .h-card {
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1px solid #d2d2d2;
+	padding: 10px;
+}
+.happy .h-cl {
+	width: 90%;
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 10px;
+	margin-left: 20px;
+}
+.happy .hg {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(253px, auto));
+	width: 90%;
+	margin: auto;
+	gap: 1rem;
+	padding-top: 20px;
+}
+.happy .h-cl .h-name {
+	width: 50%;
+}
+.happy .h-cl .h-name i {
+	width: 50px;
+	height: 50px;
+	background-color: #13a2b7;
+	font-size: 20px;
+	line-height: 50px;
+	text-align: center;
+	color: #ffffff;
+	border-radius: 50%;
+	margin-right: 20px;
+	float: left;
+}
+.happy .h-cl .h-name h4 {
+	color: #111111;
+	font-weight: 700;
+}
+.happy .h-cl .h-name span {
+	font-size: 13px;
+	color: #888888;
+}
+.h-rat i {
+	font-size: 13px;
+	color: #e4c870;
+}
+.hc-text p {
+	font-size: 17px;
+	line-height: 28px;
+	margin-bottom: 0;
+	color: #666666;
+	font-weight: 400;
+	margin: 0 0 15px 0;
+}
+.happy .h-text p {
+	font-size: 15px;
+	color: #888888;
+	font-weight: 500;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+.happy .h-text p h1 {
+	color: #111111;
+	font-weight: 700;
+	margin-top: 8px;
+}

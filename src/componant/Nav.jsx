@@ -3,6 +3,10 @@ import "../style/Nav.css"
 const Nav = () => {
   return (
     <>
+    <div className="nav-sec">
+
+  
+
       <div className="nav">
 
 <div className="adrs">
@@ -32,7 +36,7 @@ const Nav = () => {
     </div>
 </div>
 </div>
-
+</div>
     
     </>
   )

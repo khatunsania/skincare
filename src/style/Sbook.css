@@ -1,0 +1,147 @@
+.sb-sec {
+	width: 100%;
+	margin-top: 50px;
+}
+.sb-cont {
+	width: 65%;
+	margin: auto;
+}
+.sb-sec .sb-form {
+	width: 40%;
+}
+.sb-sec .sb-text {
+	width: 66%;
+}
+.sb-sec .sb-text {
+	width: 90%;
+}
+.sb-sec .sb-head p h2 {
+	color: #111111;
+	font-weight: 700;
+	margin-bottom: 25px;
+	text-align: center;
+}
+.sb-sec .sb-cont form input {
+	font-size: 15px;
+	color: #666666;
+	width: 100%;
+	height: 50px;
+	padding-left: 20px;
+	border: 1px solid #f2f2f2;
+	border-radius: 5px;
+	margin-bottom: 20px;
+}
+.sb-sec .sb-cont form {
+	width: 84%;
+	/* padding: 50px;
+	-webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1); */
+	background: #ffffff;
+}
+.sb-sec .sb-cont form button {
+	width: 100%;
+	font-size: 14px;
+	letter-spacing: 2px;
+}
+.sb-sec .sb-cont {
+	display: flex;
+}
+.sb-sec .simg-text {
+	display: flex;
+	justify-content: space-between;
+	width: 85%;
+}
+.sb-sec .simg-text .facial p {
+	font-size: 15px;
+	color: #13a2b7;
+	line-height: 1px;
+}
+.sb-sec .simg-text .facial h1 {
+	color: #111111;
+	font-weight: 800;
+	margin-bottom: 15px;
+}
+.sb-sec .simg-text .rupees i {
+	font-size: 13px;
+	color: #e4c870;
+}
+.sb-sec .simg-text .rupees p {
+	text-align: right;
+}
+.sb-sec .simg-text .rupees p {
+	color: #13a2b7;
+	font-weight: 600;
+	margin-top: 10px;
+	font-size: 29px;
+}
+.sb-sec .sb-text p {
+	font-size: 15px;
+	font-family: "Poppins", sans-serif;
+	color: #666666;
+	font-weight: 400;
+	line-height: 25px;
+	margin: 0 0 15px 0;
+}
+.sb-sec .s-ruls .s-list {
+	display: flex;
+	width: 55%;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+.sb-sec .s-ruls .s-list ul {
+	width: 100%;
+}
+.s-ruls .sb-img img {
+	margin: 5px;
+}
+.s-ruls .s-list ul li {
+	list-style: none;
+	font-size: 14px;
+	color: #666666;
+	line-height: 36px;
+}
+.s-ruls .s-list ul li i {
+	color: #13a2b7;
+	font-size: 14px;
+	margin-right: 6px;
+}
+@media (max-width: 1533px) {
+	.sb-sec .sb-cont form button {
+		font-size: 11px;
+		letter-spacing: 1px;
+	}
+}
+@media (max-width: 1205px) {
+	.sb-sec .sb-cont {
+		display: block;
+	}
+	.sb-sec .sb-cont form {
+		width: 100%;
+	}
+	.sb-sec .sb-form {
+		width: 90%;
+	}
+	.sb-sec .sb-text {
+		width: 100%;
+		margin-top: 20px;
+	}
+}
+@media (max-width: 660px) {
+	.sb-sec .simg-text .facial h1 {
+		font-size: 20px;
+	}
+	.sb-sec .simg-text .rupees p {
+		font-size: 20px;
+	}
+}
+@media (max-width: 391px) {
+	.sb-sec .simg-text .facial p {
+		font-size: 10px;
+		font-weight: 700;
+	}
+}
+@media (max-width: 769px) {
+	.s-ruls .sb-img img {
+		width: 100%;
+	}
+}

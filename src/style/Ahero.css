@@ -1,0 +1,34 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&family=Josefin+Sans:wght@300;400;500;600;700&family=Jost:wght@600;700;800&family=Mukta:wght@400;500;600;700;800&family=Mulish:wght@300;400;500;600;700;800;900&family=Open+Sans:ital,wght@0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Oswald:wght@300;400;500;600;700&family=Poppins:wght@200;300;400;500;600;700;800&family=REM:wght@300;500;800&family=Raleway:wght@300;500;600;700;800&display=swap");
+* {
+	font-family: "Mulish", sans-serif;
+} */
+.a-head {
+	width: 100%;
+}
+.a-head .ah-img {
+	background-image: url(/img/a-bg.webp);
+}
+.a-head .ah-text p {
+	text-align: center;
+	color: #fff;
+	font-weight: 900;
+}
+.a-head .ah-text {
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+.a-head .ah-text .a-link a {
+	font-size: 15px;
+	color: #ffffff;
+	margin-right: 15px;
+	display: inline-block;
+	position: relative;
+	text-decoration: none;
+}
+.a-head .ah-text .a-link span {
+	color: #13a2b7;
+	margin-left: 10px;
+}
+.a-head .ah-text .a-link p {
+	font-weight: 500;
+}

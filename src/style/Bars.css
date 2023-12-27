@@ -1,58 +1,61 @@
-@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&family=Josefin+Sans:wght@300;400;500;600;700&family=Jost:wght@600;700;800&family=Mukta:wght@400;500;600;700;800&family=Mulish:wght@300;400;500;600;700;800;900&family=Open+Sans:ital,wght@0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Oswald:wght@300;400;500;600;700&family=Poppins:wght@200;300;400;500;600;700;800&family=REM:wght@300;500;800&family=Raleway:wght@300;500;600;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&family=Josefin+Sans:wght@300;400;500;600;700&family=Jost:wght@600;700;800&family=Mukta:wght@400;500;600;700;800&family=Mulish:wght@300;400;500;600;700;800;900&family=Open+Sans:ital,wght@0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Oswald:wght@300;400;500;600;700&family=Poppins:wght@200;300;400;500;600;700;800&family=REM:wght@300;500;800&family=Raleway:wght@300;500;600;700;800&display=swap");
 
-  
-.navbar{
-  max-width: 1300px;
-   margin: auto;
-   display: flex;
-   justify-content: space-around;
-   padding-top: 25px;
-   background-color: #fff;
+.navbar {
+	max-width: 1300px;
+	margin: auto;
+	display: flex;
+	justify-content: space-around;
+	background-color: #fff;
+	padding-bottom: 20px;
 }
-.bars{
-   width: 40%;
-   display: flex;
-   justify-content: space-around;
-   list-style: none;
-   text-transform: uppercase;
-   margin-top: 28px;
+.bars {
+	width: 40%;
+	display: flex;
+	justify-content: space-around;
+	list-style: none;
+	text-transform: uppercase;
+	margin-top: 28px;
+	cursor: pointer;
 }
-.menu{
-   display: none;
+.logo h1 {
+	padding-top: 20px;
+	cursor: pointer;
 }
-.bars li{
-   font-size: 14px;
-   font-weight: 700;
-
-
+.menu {
+	display: none;
 }
-.bars li:hover{
-   border-bottom: 2px solid #0c5d69;
+.bars li {
+	font-size: 14px;
+	font-weight: 700;
 }
-.btn{
-   margin-top: 21px;
+.bars li:hover {
+	border-bottom: 2px solid #0c5d69;
 }
-.btn button{
-   display: inline-block;
-   font-size: 15px;
-   font-weight: 500;
-   padding: 12px 30px 10px;
-   text-transform: uppercase;
-   color: #111111;
-   text-transform: uppercase;
-   letter-spacing: 2px;
-   border: 2px solid #13a2b7;
-   border-radius: 5px;
+.btn {
+	margin-top: 21px;
 
 }
-@media(max-width:980px){
-   .bars{
-     display: none;
-   }
-   .btn button{
-      display: none;
-   }
-   .menu{
-      display: block;
-   }
- }
+.btn button {
+	display: inline-block;
+	font-size: 15px;
+	font-weight: 500;
+	padding: 12px 30px 10px;
+	text-transform: uppercase;
+	color: #111111;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	border: 2px solid #13a2b7;
+	border-radius: 5px;
+	cursor: pointer;
+}
+@media (max-width: 980px) {
+	.bars {
+		display: none;
+	}
+	.btn button {
+		display: none;
+	}
+	.menu {
+		display: block;
+	}
+}

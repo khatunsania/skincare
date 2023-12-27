@@ -1,0 +1,27 @@
+.skin-sec {
+	width: 100%;
+	margin-top: 100px;
+}
+.skin-cont {
+	width: 64%;
+	margin: auto;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(400px, auto));
+	background-color: #fbfcfc;
+}
+.skin-sec .load-more p {
+	text-align: center;
+}
+.skin-sec .load-more p button {
+	display: inline-block;
+	font-size: 15px;
+	font-weight: 500;
+	padding: 12px 30px 10px;
+	text-transform: uppercase;
+	color: #111111;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	border: 2px solid #13a2b7;
+	border-radius: 5px;
+	margin-bottom: 50px;
+}
