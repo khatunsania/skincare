@@ -1,101 +1,94 @@
 @import url("https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&family=Josefin+Sans:wght@300;400;500;600;700&family=Jost:wght@600;700;800&family=Mukta:wght@400;500;600;700;800&family=Mulish:wght@300;400;500;600;700;800;900&family=Open+Sans:ital,wght@0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Oswald:wght@300;400;500;600;700&family=Poppins:wght@200;300;400;500;600;700;800&family=REM:wght@300;500;800&family=Raleway:wght@300;500;600;700;800&display=swap");
 * {
-    font-family: "Mulish", sans-serif;
+	font-family: "Mulish", sans-serif;
 }
-.news-sec{
-    width: 80%;
-    margin: auto;
-    margin-top: 100px;
+.news-sec {
+	width: 80%;
+	margin: auto;
+	margin-top: 100px;
+}
+.o-news {
+	display: flex;
+	justify-content: space-between;
+	width: 77%;
+	margin: auto;
+}
+.n-card .ns-card {
+	width: 75%;
+	box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.05);
+	padding: 30px;
+	margin-bottom: 30px;
+}
+.n-img {
+	display: flex;
+	justify-content: space-between;
+}
+.n-card {
+	width: 79%;
+	margin: auto;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(253px, auto));
+}
+.n-btn button {
+	display: inline-block;
+	font-size: 15px;
+	font-weight: 500;
+	padding: 12px 30px 10px;
+	text-transform: uppercase;
+	color: #111111;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	border: 2px solid #13a2b7;
+	border-radius: 5px;
+}
+.o-news .n-text p {
+	font-size: 15px;
+	color: #888888;
+	font-weight: 500;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+.o-news .n-text h1 {
+	color: #111111;
+	font-weight: 1000;
+	margin-top: 8px;
+}
+.ns-card h3 {
+	color: #111111;
+	font-weight: 600;
+	line-height: 24px;
+}
+.ns-card p {
+	ont-size: 15px;
+	font-family: "Poppins", sans-serif;
+	color: #666666;
+	font-weight: 400;
+	line-height: 25px;
+	margin: 0 0 15px 0;
+}
+.j-img img {
+	vertical-align: middle;
+	border-style: none;
+	border-radius: 50%;
+}
+.j-img span {
+	padding-left: 5px;
 
+	ont-size: 15px;
+	font-family: "Poppins", sans-serif;
+	color: #666666;
+	font-weight: 400;
+	line-height: 25px;
+	margin: 0 0 15px 0;
 }
-.o-news{
-    display: flex;
-    justify-content: space-around;
-}
-.n-card .ns-card{
-    width: 75%;
-    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.05);
-    padding: 30px;
-    margin-bottom: 30px;
-
-
-}
-.n-img{
-    display: flex;
-    justify-content: space-between;
-}
-.n-card{
-    width: 79%;
-    margin: auto;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(253px, auto));
-}
-.n-btn button{
-    display: inline-block;
-    font-size: 15px;
-    font-weight: 500;
-    padding: 12px 30px 10px;
-    text-transform: uppercase;
-    color: #111111;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    border: 2px solid #13a2b7;
-    border-radius: 5px;
-
-}
-.o-news .n-text p{
-    font-size: 15px;
-    color: #888888;
-    font-weight: 500;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-
-}
-.o-news .n-text  h1{
-    color: #111111;
-    font-weight: 1000;
-    margin-top: 8px;
-}
-.ns-card h3{
-    color: #111111;
-    font-weight: 600;
-    line-height: 24px;
-
-}
-.ns-card p{
-    ont-size: 15px;
-    font-family: "Poppins", sans-serif;
-    color: #666666;
-    font-weight: 400;
-    line-height: 25px;
-    margin: 0 0 15px 0;
-
-}
-.j-img img{
-    vertical-align: middle;
-    border-style: none;
-    border-radius: 50%;
-}
-.j-img span{
-    padding-left: 5px;
-    
-    ont-size: 15px;
-    font-family: "Poppins", sans-serif;
-    color: #666666;
-    font-weight: 400;
-    line-height: 25px;
-    margin: 0 0 15px 0;
-}
-@media(max-width:456px){
-    .n-card .ns-card {
-        width: 90%;
-        box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.05);
-        padding: 30px;
-        margin-bottom: 30px;
-    }
-    .o-news{
-        display: block;
-    }
-    
-    
+@media (max-width: 456px) {
+	.n-card .ns-card {
+		width: 90%;
+		box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.05);
+		padding: 30px;
+		margin-bottom: 30px;
+	}
+	.o-news {
+		display: block;
+	}
 }

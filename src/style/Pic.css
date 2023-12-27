@@ -1,12 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&family=Josefin+Sans:wght@300;400;500;600;700&family=Jost:wght@600;700;800&family=Mukta:wght@400;500;600;700;800&family=Mulish:wght@300;400;500;600;700;800;900&family=Open+Sans:ital,wght@0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Oswald:wght@300;400;500;600;700&family=Poppins:wght@200;300;400;500;600;700;800&family=REM:wght@300;500;800&family=Raleway:wght@300;500;600;700;800&display=swap");
 * {
-    font-family: "Mulish", sans-serif;
+	font-family: "Mulish", sans-serif;
 }
-.pic-sec{
-    width: 100%;
+.img-sec {
+	width: 100%;
 }
-@media(max-width:600px){
-    .g-img img{
-        width: 100%;
-    }
+.img-sec .g-img {
+	width: 74%;
+	margin: auto;
+}
+@media (max-width: 600px) {
+	.g-img img {
+		width: 100%;
+	}
 }
