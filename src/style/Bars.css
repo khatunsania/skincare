@@ -28,12 +28,15 @@
 	font-size: 14px;
 	font-weight: 700;
 }
+.bars .bars-link {
+	text-decoration: none;
+	color: #111111;
+}
 .bars li:hover {
 	border-bottom: 2px solid #0c5d69;
 }
 .btn {
 	margin-top: 21px;
-
 }
 .btn button {
 	display: inline-block;

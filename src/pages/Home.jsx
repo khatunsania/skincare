@@ -9,7 +9,6 @@ import News from '../componant/News'
 const Home = () => {
   return (
     <>
-
       < Hero />
       <Book />
       <Offer />
